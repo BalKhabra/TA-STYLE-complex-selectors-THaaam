@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/b21ae8f573.js" crossorigin="anonymous"></script>
-    <script src="./script.js"></script>
     <title>Complex Selector</title>
 </head>
 <body>
@@ -34,17 +33,18 @@
                 </ul>
             </nav>
         </div>
-    <section class="flex container sect-trial">
+    <section class="container">
         <article class="order">
-            <h2 class="article-heading flex">Track The Learning <br>Process Schedule</h2>
-            <a class="btn container " href="#">Get 30 Day Trial</a>
+            <h2 class="article-heading">Track The Learning <br>Process Schedule</h2>
+                <a class="btn" href="#">Get 30 Day Trial</a>
+  
         </article>
     </section>
     </header>
     <section>
         <img class="hero-img flex-btw container" src="../assets/hero.png" alt="">
     </section>
-    <article class="files flex-btw flex-100 container">
+    <article class="files flex-btw container">
         <div class="flex">
             <a href="#.pdf">
         <img src="../assets/pdf.png" alt=""></a>
@@ -68,21 +68,20 @@
     </article>
     <hr>
     <section class="sect-stats flex container">
-        <article class="width-text">
+        <div class="monitor-text">
             <h4>Monitor Your Learning <br> And Improve It</h4>
             <p>Far far away, behind the word mountains, far from 
                 the countries Vokalia and Consonantia, there live the blind texts.</p>
-           <div>
             <button class="stats-btn">Learn More</button>
-        </div>        
-        </article>
-        <div class="width-image">
+        </div>
+        <div class="width-image container">
             <img src="../assets/learning-graph.png" alt="">
         </div>
     </section>
-    <section class="sect-score">
+    <section class="sect-score container">
         <h4>WEEKLY SCORE</h4>
-        <table>
+        <div style="overflow-x:auto;">
+        <table class="container flex-100 container-media">
             <tr>
                 <th class="th-left">Days</th>
                 <th>Course</th>
@@ -132,8 +131,9 @@
                 <td>2 Hours 30 Min</td>
             </tr>
         </table>
+    </div>
     </section>
-    <section class="sect-plans">
+    <section class="sect-plans container">
         <h4>Join us and let's study <br>with your friends</h4>
         <div class="subscription flex-center-together">
             <h6>Monthly</h6>
@@ -145,9 +145,8 @@
             </div>
             <h6>Yearly</h6>
         </div>
-
-<div class="flex-center-1">
-        <div class="monthly width-30">
+<section class="flex">
+        <article class="monthly">
         <div>
             <h4>Basic</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam sit,</p>
@@ -155,23 +154,23 @@
             <div class="bottom-border"></div>
         </div>
         <div class="five-points">
-        <div class="flex center-div">
+        <div class="flex">
             <img src="../assets/tick.png" alt="">
             <p>50 courses a day</p>
         </div>
-        <div class="flex center-div">
+        <div class="flex">
             <img src="../assets/tick.png" alt="">
             <p>50 courses a day</p>
         </div>
-        <div class="flex center-div">
+        <div class="flex">
             <img src="../assets/tick.png" alt="">
             <p>50 courses a day</p>
         </div>
-        <div class="flex center-div ex">
+        <div class="flex ex">
             <img src="../assets/cross.png" alt="">
             <p>50 courses a day</p>
         </div>
-        <div class="flex center-div ex">
+        <div class="flex ex">
             <img src="../assets/cross.png" alt="">
             <p>50 courses a day</p>
         </div>
@@ -179,8 +178,8 @@
     </div>
 
         <button class="subscription-btn">Get Started</button>
-    </div>
-        <div class="monthly width-30">
+    </article>
+        <article class="monthly">
         <div>
             <h4>Most Popular</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam sit,</p>
@@ -188,39 +187,33 @@
             <div class="bottom-border"></div>
         </div>
         <div class="five-points">
-        <div class="flex center-div">
+        <div class="flex">
             <img src="../assets/tick.png" alt="">
             <p class="popular">50 courses a day</p>
         </div>
-        <div class="flex center-div">
+        <div class="flex">
             <img src="../assets/tick.png" alt="">
             <p class="popular">50 courses a day</p>
         </div>
-        <div class="flex center-div">
+        <div class="flex">
             <img src="../assets/tick.png" alt="">
             <p class="popular">50 courses a day</p>
         </div>
-        <div class="flex center-div ex">
+        <div class="flex">
             <img src="../assets/tick.png" alt="">
             <p class="popular" >50 courses a day</p>
         </div>
-        <div class="flex center-div ex">
+        <div class="flex">
             <img src="../assets/tick.png" alt="">
             <p class="popular" >50 courses a day</p>
         </div>
-        
     </div>
-
         <button class="subscription-btn">Get Started</button>
-    </div>
-        
-</div>
-
+    </article>
+</section>
 <div class="trial-30-days">
-    
     <h4>start your 30 days trial now!</h4>
     <button>Get started</button>
-
 </div>
     </section>
 </main>
